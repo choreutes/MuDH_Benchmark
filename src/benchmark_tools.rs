@@ -1,3 +1,11 @@
+/* SPDX-FileCopyrightText:  © 2025 Tobias Schmalz <github@choreutes.de>
+ * SPDX-License-Identifier: MIT
+ *
+ * benchmark_tools.rs
+ *
+ * Defines some convenient helper functions.
+ */
+
 use crate::pqxdh_alice_plain;
 use crate::pqmudh_alice;
 use crate::pqmudh_alice_with_prep;

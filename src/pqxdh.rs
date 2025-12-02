@@ -1,3 +1,12 @@
+/* SPDX-FileCopyrightText:  © 2025 Tobias Schmalz <github@choreutes.de>
+ * SPDX-License-Identifier: MIT
+ *
+ * pqxdh.rs
+ *
+ * Reimplementation of Signal's pqXDH key exchange protocol
+ * without final session setup.
+ */
+
 use crate::derive_keys;
 
 use libsignal_protocol::{

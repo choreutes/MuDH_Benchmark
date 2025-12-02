@@ -1,3 +1,11 @@
+/* SPDX-FileCopyrightText:  © 2025 Tobias Schmalz <github@choreutes.de>
+ * SPDX-License-Identifier: MIT
+ *
+ * pqmudh.rs
+ *
+ * Implementation of Alice's side of a (pq)MuDH key exchange.
+ */
+
 use crate::GROUP_ORDER_BYTES;
 use crate::derive_keys;
 

@@ -1,3 +1,11 @@
+/* SPDX-FileCopyrightText:  © 2025 Tobias Schmalz <github@choreutes.de>
+ * SPDX-License-Identifier: MIT
+ *
+ * main.rs
+ *
+ * Defines the command-line interface and the overall process of the benchmark.
+ */
+
 mod benchmark_tools;
 mod key_derivation;
 mod pqmudh;

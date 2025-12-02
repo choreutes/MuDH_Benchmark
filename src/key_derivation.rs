@@ -1,3 +1,11 @@
+/* SPDX-FileCopyrightText:  © 2025 Tobias Schmalz <github@choreutes.de>
+ * SPDX-License-Identifier: MIT
+ *
+ * key_derivation.rs
+ *
+ * Definition of key derivation using HKDF.
+ */
+
 use hkdf::Hkdf;
 use sha2::Sha256;
 
